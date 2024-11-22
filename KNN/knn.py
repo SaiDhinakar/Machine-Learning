@@ -63,7 +63,7 @@ KNN(data, target, k=5)
 
 """## Tesing with actucal datasets"""
 
-df = pd.read_csv('auto-mpg.csv')
+df = pd.read_csv('../Dataset/auto-mpg.csv')
 df.dropna()
 df.head()
 
