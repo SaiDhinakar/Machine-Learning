@@ -1,4 +1,4 @@
-# **Support Vector Machine (SVM) Algorithm: **
+# Support Vector Machine (SVM) Algorithm:
 
 ## **What is SVM?**
 **Support Vector Machine (SVM)** is a supervised machine learning algorithm primarily used for **classification** tasks. The goal of SVM is to find the **hyperplane** that best separates the data into different classes with a maximum margin.
@@ -30,11 +30,6 @@ The SVM algorithm maximizes the margin, which is defined as:
 \text{Margin} = \frac{1}{\| w \|}
 \]
 
-### **Visual Example: Linear SVM**
-In the case of a linear classification, the goal is to maximize the margin between the two classes.
-
-![Linear SVM](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Svm_hyperplane.svg/600px-Svm_hyperplane.svg.png)
-
 *The solid line represents the hyperplane, while the dashed lines show the margin. Support vectors are the points closest to the hyperplane.*
 
 ---
@@ -48,14 +43,14 @@ When the data is not linearly separable, SVM uses the **kernel trick** to map th
 
 The kernel function transforms the data without explicitly mapping it to higher dimensions, which saves computational resources.
 
-### **Visual Example: Non-Linear SVM with RBF Kernel**
-When data is non-linear, an RBF kernel allows SVM to create complex decision boundaries.
-
-![Non-Linear SVM](https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/SVM_margin_2.png/600px-SVM_margin_2.png)
-
 *This shows how the decision boundary bends to better classify non-linearly separable data using an RBF kernel.*
 
 ---
+
+## Visual Representation
+![SVM](https://miro.medium.com/v2/resize:fit:1400/1*m225ZOYS-VX14yo5LPE4wg.png)
+
+--
 
 ## **Mathematical Formulation**
 
