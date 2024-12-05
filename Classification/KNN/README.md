@@ -1,7 +1,3 @@
-Here’s a **README.md** file for explaining the **K-Nearest Neighbors (KNN)** algorithm with appropriate images and examples:
-
----
-
 # **K-Nearest Neighbors (KNN) Algorithm: A Simple Guide**
 
 ## **What is KNN?**
@@ -26,13 +22,6 @@ For classification tasks, KNN works by finding the **k** nearest neighbors to a 
 3. **Identify the k nearest neighbors** based on the calculated distances.
 4. **Assign the most frequent class** among the k neighbors to the test point.
 
-### **Visual Example: KNN Classification**
-The following image demonstrates how KNN classifies a test point based on the majority class of its neighbors.
-
-![KNN Classification](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/KnnClassification.svg/600px-KnnClassification.svg.png)
-
-*Here, the red and blue points are the training data, and the green point is the test point. The test point is classified based on the majority class among its k-nearest neighbors.*
-
 ---
 
 ### **2. Regression with KNN**
@@ -43,13 +32,6 @@ For regression tasks, KNN works similarly but instead of assigning a class, it p
 2. **Calculate the distance** between the test point and all the training points.
 3. **Identify the k nearest neighbors.**
 4. **Predict the target value** as the average of the target values of the k neighbors.
-
-### **Visual Example: KNN Regression**
-In this case, the target value for the test point is predicted as the average of the k-nearest neighbors' target values.
-
-![KNN Regression](https://media.geeksforgeeks.org/wp-content/uploads/20200616145419/Untitled2781.png)
-
-*The green dot is the test point, and its predicted value is the average of its nearest neighbors’ values.*
 
 ---
 
