@@ -30,8 +30,6 @@ The SVM algorithm maximizes the margin, which is defined as:
 \text{Margin} = \frac{1}{\| w \|}
 \]
 
-*The solid line represents the hyperplane, while the dashed lines show the margin. Support vectors are the points closest to the hyperplane.*
-
 ---
 
 ### **2. Non-Linear SVM (Non-Linearly Separable Data)**
@@ -43,12 +41,11 @@ When the data is not linearly separable, SVM uses the **kernel trick** to map th
 
 The kernel function transforms the data without explicitly mapping it to higher dimensions, which saves computational resources.
 
-*This shows how the decision boundary bends to better classify non-linearly separable data using an RBF kernel.*
-
 ---
 
 ## Visual Representation
 ![SVM](https://miro.medium.com/v2/resize:fit:1400/1*m225ZOYS-VX14yo5LPE4wg.png)
+*The solid line represents the hyperplane, while the dashed lines show the margin. Support vectors are the points closest to the hyperplane.The decision boundary bends to better classify non-linearly separable data using an RBF kernel.*
 
 --
 
