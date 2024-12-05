@@ -61,7 +61,7 @@ y = b_0 + b_1x + b_2x^2 + \dots + b_nx^n
 - Degree of the polynomial (\(n\)) determines the curve's flexibility.
 
 ### **Visual Example**
-![Polynomial Regression](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Polynomialregression.png/600px-Polynomialregression.png)
+![Polynomial Regression](https://www.w3schools.com/python/img_polynomial_regression.png)
 *Higher-degree polynomials can better fit complex data.*
 
 ---
