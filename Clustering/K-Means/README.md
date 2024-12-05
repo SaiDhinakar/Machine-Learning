@@ -81,5 +81,4 @@ While K-Means typically uses **Euclidean distance**, other distance metrics like
 ---
 
 ## **Output**
-how to add image in markdown
 ![K-Means Clustering](https://imgs.search.brave.com/vIKg1VnoqVkKucm-5Vnx9LQqnQ17ouzZuTcHH1WJMik/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZWVrc2Zvcmdl/ZWtzLm9yZy93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMzAzMjAx/NzM5MTUvZG93bmxv/YWQtKDI4KS5wbmc)
