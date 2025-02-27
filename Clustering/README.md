@@ -1,4 +1,3 @@
-Here’s a **README.md** file for a simple explanation of clustering, including suggestions for web images.
 
 ---
 
